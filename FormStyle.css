@@ -1,0 +1,118 @@
+body {
+  text-align:left;
+}
+h1{
+	text-align:left;
+}
+p{
+	text-align:left;
+	font-weight:bold;
+	padding-top:0px;
+	margin-top:16px;
+	
+}
+textarea{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#page{
+	width: 950px;
+	margin: 0 auto;
+}
+
+
+.field {
+  padding: 4px; 
+  border: solid 1px #C5C5C5;  
+  outline: 0;  
+  font: normal 13px/100% Verdana, Tahoma, sans-serif;  
+  width: 300px;
+  }
+.Rfield {
+  padding: 4px; 
+  border: solid 1px #E87B7B;  
+  outline: 0;  
+  font: normal 13px/100% Verdana, Tahoma, sans-serif;  
+  width: 300px;   
+}
+.notes {
+  padding: 4px; 
+  border: solid 1px #C5C5C5;  
+  outline: 0;  
+  font: normal 13px/100% Verdana, Tahoma, sans-serif;  
+  width: 625px;
+  height:100px;
+}
+select {
+  border: solid 1px #C5C5C5;
+  padding:2.5px;
+  outline: 0;  
+  font: normal 13px/100% Verdana, Tahoma, sans-serif; 
+}
+input:hover, textarea:hover,  
+input:focus, textarea:focus {   
+  border-color: #606060;   
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}
+
+button.submit { 
+	
+	width: 150px;  
+    padding:9px;	
+    background: #617798;  
+    border: 0;  
+    font-size: 14px;  
+    color: #FFFFFF;  
+    -moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+	float:left;
+	margin-right:5px;
+	cursor:pointer;
+	cursor:hand;
+  
+}
+
+.radio {
+  padding:4px;
+}
+label {
+  display: block;
+  padding-top:8px;
+  width: 300px;
+  text-align:left;
+  margin-right: 10px;
+}
+
+.header {
+	font-weight: bold;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.file{
+  border:20px;
+}
+
+.row {
+	clear: both;
+}
+
+.col33{
+	width: 310px;
+	float: left;
+}
+
+.col50{
+	width: 350px;
+	float: left;
+}
+
+.col100{
+	width: 960px;
+	float: left;
+}
+a{
+	color:#FF0000;
+
+}
